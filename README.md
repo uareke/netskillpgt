@@ -1,4 +1,4 @@
-###English
+### English
 
 # CRUD Generator Skill for ChatGPT
 
@@ -67,7 +67,7 @@ Feel free to customize the generated code according to your project's convention
 
 
 
-###Portugues
+### Portugues
 
 # 🚀 Skill Geradora de CRUD para ChatGPT
 
