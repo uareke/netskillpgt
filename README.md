@@ -1,3 +1,5 @@
+###English
+
 # CRUD Generator Skill for ChatGPT
 
 A productivity-focused ChatGPT skill that automatically generates complete CRUD structures from a database table definition.
@@ -62,3 +64,88 @@ This skill automates the boring parts, allowing developers to focus on:
 Reduce development time, eliminate repetitive manual work, and accelerate project delivery while maintaining consistent code structure and standards.
 
 Feel free to customize the generated code according to your project's conventions and architecture.
+
+
+
+###Portugues
+🚀 Skill Geradora de CRUD para ChatGPT
+
+Uma skill criada para automatizar a geração de CRUDs completos a partir da definição de uma tabela de banco de dados.
+
+Em vez de gastar tempo criando manualmente dezenas de arquivos repetitivos, basta informar a estrutura da tabela e seguir o assistente passo a passo.
+
+A skill fará perguntas sobre o que deseja gerar e, ao final, entregará todos os arquivos prontos para copiar e colar no projeto.
+
+📋 O que ela pode gerar
+Entidades (Entity)
+DTOs (Request, Response, Create e Update)
+AutoMapper Profiles
+Controllers
+Services
+Repositories
+Interfaces
+Mapeamentos do Entity Framework
+FluentValidation
+Soft Delete
+Campos de Auditoria
+Injeção de Dependência
+Estrutura compatível com Clean Architecture
+💡 Exemplo de entrada
+CREATE TABLE schema.orgao (
+    orga_cd_orgao bigint not null,
+    orga_nm_orgao varchar(200),
+    orga_cd_orgao_sup bigint,
+    orga_dt_inicio_validade timestamp,
+    orga_dt_fim_validade timestamp,
+    orga_dt_exclusao timestamp
+);
+⚙️ Como funciona
+Copie a Skill.
+Cole no ChatGPT.
+Informe a estrutura da tabela.
+Responda às perguntas do assistente.
+Receba todos os arquivos gerados.
+
+A experiência foi projetada para funcionar como um assistente de desenvolvimento, guiando você por todas as etapas da criação do CRUD.
+
+🎯 Objetivo
+
+Todo desenvolvedor conhece aquela tarefa repetitiva que sempre aparece:
+
+Criar Entity
+Criar DTO
+Criar Repository
+Criar Service
+Criar Controller
+Criar Validator
+Criar Mapping
+
+Esse processo normalmente consome tempo e raramente agrega valor ao negócio.
+
+A proposta desta skill é automatizar esse trabalho repetitivo para que você possa focar no que realmente importa:
+
+Regras de negócio
+Arquitetura
+Performance
+Segurança
+Integrações
+Experiência do usuário
+✅ Benefícios
+Redução significativa do tempo de desenvolvimento
+Padronização do código
+Menos erros de digitação e inconsistências
+Maior produtividade da equipe
+Geração rápida de código boilerplate
+🛠 Compatibilidade
+.NET 7
+.NET 8
+Entity Framework Core
+AutoMapper
+FluentValidation
+Arquiteturas em Camadas
+Clean Architecture
+⚠️ Observação
+
+A skill foi criada para acelerar o desenvolvimento de código repetitivo. O código gerado pode e deve ser adaptado às necessidades e padrões do seu projeto.
+
+Use a automação para economizar tempo e concentre seus esforços nos problemas que realmente exigem conhecimento e experiência.
